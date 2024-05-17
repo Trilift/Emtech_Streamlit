@@ -1,6 +1,13 @@
 # -*- coding: utf-8 -*-
 """streamlit_app.py"""
 
+import sys
+print("Python Version:", sys.version)
+
+import tensorflow as tf
+print("TensorFlow Version:", tf.__version__)
+
+
 import streamlit as st
 import tensorflow as tf
 from PIL import Image
