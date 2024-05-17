@@ -51,5 +51,5 @@ if uploaded_image is not None:
     prediction = model.predict(preprocessed_image)
 
     # Display the prediction
-    st.write('The number in the image is:', np.argmax(prediction))
+    st.write('The number in the image is: ', np.argmax(prediction))
 
