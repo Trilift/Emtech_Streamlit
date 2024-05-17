@@ -32,7 +32,7 @@ st.title('Digit Recognition Algorithm')
 st.write('by Paulo Abregrunda and Nikko Denila')
 st.image("number.jpg", width=400)
 st.write("""
-        # This application can determine what number is shown in the image uploaded.
+        This application can determine what number is shown in the image uploaded.
         \n These numbers can range from 0-9.
         """)
 
