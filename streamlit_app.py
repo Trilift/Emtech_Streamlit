@@ -4,8 +4,6 @@
 import sys
 print("Python Version:", sys.version)
 
-pip install tensorflow
-
 import streamlit as st
 import tensorflow as tf
 from PIL import Image
