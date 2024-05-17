@@ -29,12 +29,13 @@ def preprocess_image(image):
 
 # Streamlit app
 st.title('Digit Recognition Algorithm')
-st.image("number.jpg", width=800)
-st.write('## This application is created by Paulo Abregrunda and Nikko Denila from CPE32S5')
+st.write('by Paulo Abregrunda and Nikko Denila')
+st.image("number.jpg", width=600)
 st.write('''
-        ### This application can determine what number is shown in the image uploaded.
-        \n These numbers can range from 0-9.''')
-st.text('### Upload your image below')
+        This application can determine what number is shown in the image uploaded.
+        \n These numbers can range from 0-9.
+        ''')
+st.text('Upload your image below')
 
 
 uploaded_image = st.file_uploader("Upload an image", type=["jpg", "png"])
