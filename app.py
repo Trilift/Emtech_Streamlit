@@ -52,3 +52,10 @@ if uploaded_image is not None:
 
     # Display the prediction
     st.write('Prediction:', np.argmax(prediction))
+
+
+# Display prediction
+    max_index = np.argmax(prediction)
+    predicted_category = category_mapping[max_index]
+    st.write("Prediction Category:", predicted_category)
+    st.write("Prediction Probability:", prediction[0][max_index])
