@@ -34,6 +34,7 @@ st.image("number.jpg", width=400)
 st.write("""
         This application can determine what number is shown in the image uploaded.
         \n These numbers can range from 0-9.
+        \n Only 2D numbers are read.
         """)
 
 uploaded_image = st.file_uploader("Upload an image here", type=["jpg", "png"])
